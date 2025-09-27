@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>About TechCon 2024</title>
-  <meta name="description" content="About TechCon 2024 — history, mission and past speakers." />
+  <meta name="description" content="About TechCon 2024 — history, mission and notable past speakers." />
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,7 +13,6 @@
       <h1>About TechCon 2024</h1>
       <nav aria-label="Primary navigation">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
         <a href="schedule.html">Schedule</a>
         <a href="register.html">Register</a>
         <a href="contact.html">Contact</a>
@@ -23,40 +22,49 @@
 
   <main>
     <div class="container">
+      <!-- History article -->
       <article id="history" aria-labelledby="history-heading">
         <h2 id="history-heading">History</h2>
         <p>
-          TechCon began in 2012 as a small meetup and has grown into a major annual conference
-          showcasing innovation across software, data and design. Each year we host speakers from
-          startups and large enterprises to share practical knowledge.
+          TechCon began in 2012 as a community meetup for engineers and designers. Over the years it
+          has expanded into a multi-day conference featuring talks, workshops and hands-on sessions
+          focused on software engineering, product design and data science.
         </p>
+
         <figure>
-          <img src="images/history.jpg" alt="Crowd at a previous TechCon event" width="600">
-          <figcaption>Attendees at TechCon (past event).</figcaption>
+          <img src="images/history-2018.jpg" alt="Audience listening to a keynote at TechCon 2018">
+          <figcaption>TechCon 2018 — keynote and full-house audience.</figcaption>
         </figure>
       </article>
 
+      <!-- Mission article -->
       <article id="mission" aria-labelledby="mission-heading">
         <h2 id="mission-heading">Mission</h2>
         <p>
-          Our mission is to create an inclusive learning space where technologists of all levels
-          can connect, learn, and collaborate on real-world challenges.
+          Our mission is to create an inclusive space where practitioners from startups and large
+          organisations can share practical knowledge, learn new skills, and build meaningful
+          professional relationships.
         </p>
+        <figure>
+          <img src="images/mission-icon.svg" alt="Illustration representing collaboration and learning" width="180">
+          <figcaption>We emphasise collaboration, accessibility and practical learning.</figcaption>
+        </figure>
       </article>
 
-      <article id="speakers" aria-labelledby="speakers-heading">
+      <!-- Past speakers article -->
+      <article id="past-speakers" aria-labelledby="speakers-heading">
         <h2 id="speakers-heading">Notable Past Speakers</h2>
 
-        <section class="speaker">
-          <img src="images/speaker-jane.jpg" alt="Jane Doe, keynote speaker, CTO" width="150" />
-          <h3>Jane Doe</h3>
-          <p>CTO, InnovateX — talked about large-scale systems and reliability engineering.</p>
+        <section class="speaker" aria-labelledby="speaker-jane">
+          <h3 id="speaker-jane">Jane Doe — CTO, InnovateX</h3>
+          <img src="images/speaker-jane.jpg" alt="Jane Doe, InnovateX CTO, speaking on stage" width="150">
+          <p>Jane presented on building resilient distributed systems and shared practical strategies for reliability.</p>
         </section>
 
-        <section class="speaker">
-          <img src="images/speaker-omar.jpg" alt="Omar Ahmed, data scientist" width="150" />
-          <h3>Omar Ahmed</h3>
-          <p>Data scientist who presented practical ML workflows for product teams.</p>
+        <section class="speaker" aria-labelledby="speaker-omar">
+          <h3 id="speaker-omar">Omar Ahmed — Lead Data Scientist</h3>
+          <img src="images/speaker-omar.jpg" alt="Omar Ahmed, data scientist, smiling portrait" width="150">
+          <p>Omar covered production ML workflows and how product teams can adopt data-driven processes.</p>
         </section>
 
       </article>
@@ -70,4 +78,3 @@
   </footer>
 </body>
 </html>
-
