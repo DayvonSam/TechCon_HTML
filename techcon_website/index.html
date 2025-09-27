@@ -1,56 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>TechCon 2024 — Home</title>
-  <meta name="description" content="TechCon 2024 — conference for developers, designers and tech leaders." />
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon 2024 Conference</title>
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <div class="container">
-      <h1>TechCon 2024</h1>
-      <nav aria-label="Primary navigation">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="register.html">Register</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+    <h1>TechCon 2024</h1>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
+  <!-- Main Content -->
   <main>
-    <section id="intro" aria-labelledby="intro-heading">
-      <div class="container">
-        <h2 id="intro-heading">Welcome to TechCon 2024</h2>
-        <p>
-          TechCon 2024 brings together developers, designers, and technology leaders to share
-          the latest advances in software, AI, and product design. Join talks, panels and workshops
-          to learn, network and build.
-        </p>
-
-        <figure>
-          <!-- Replace 'promo.mp4' with your actual video file path -->
-          <video controls width="720" poster="promo-poster.jpg">
-            <source src="media/promo.mp4" type="video/mp4">
-            <!-- fallback text -->
-            Your browser does not support the video element. Visit the conference page for details.
-            <!-- subtitle track (example) -->
-            <track kind="subtitles" src="media/promo-en.vtt" srclang="en" label="English subtitles">
-          </video>
-          <figcaption>Promo: Highlights from TechCon — captions available.</figcaption>
-        </figure>
-
-      </div>
+    <section>
+      <p>Welcome to TechCon 2024! Join us for an exciting event showcasing the latest innovations in technology, networking opportunities, and expert-led sessions.</p>
+      <video controls width="600">
+        <source src="promo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
     </section>
   </main>
 
+  <!-- Footer -->
   <footer>
-    <div class="container">
-      <p>copyright © TechCon 2024</p>
-    </div>
+    <p>&copy; 2024 TechCon. All rights reserved. Copyright.</p>
   </footer>
 </body>
 </html>
